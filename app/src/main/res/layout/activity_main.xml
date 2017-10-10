@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.thispc.demo_demso.MainActivity">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0%"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        />
+
+    <Button
+        android:id="@+id/bnt_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Start"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:onClick="Start"
+        />
+   <!--<RelativeLayout-->
+       <!--android:layout_width="fill_parent"-->
+       <!--android:layout_height="wrap_content"-->
+
+       <!--&gt;-->
+
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Số 1"-->
+        <!--android:id="@+id/txt_view"-->
+        <!--android:textSize="20sp"-->
+        <!--/>-->
+       <!--<TextView-->
+           <!--android:layout_width="fill_parent"-->
+           <!--android:layout_height="wrap_content"-->
+           <!--android:text="Số 2"-->
+           <!--android:id="@+id/txt_view2"-->
+           <!--android:textSize="20sp"-->
+            <!--android:layout_below="@+id/txt_view"-->
+           <!--/>-->
+       <!--<Button-->
+           <!--android:layout_width="wrap_content"-->
+           <!--android:layout_height="wrap_content"-->
+           <!--android:layout_below="@+id/txt_view2"-->
+           <!--android:layout_centerVertical="true"-->
+           <!--android:layout_centerHorizontal="true"-->
+           <!--android:text="Start"-->
+           <!--android:onClick="Start"-->
+           <!--android:id="@+id/bnt_start"-->
+           <!--/>-->
+   <!--</RelativeLayout>-->
+
+</LinearLayout >
